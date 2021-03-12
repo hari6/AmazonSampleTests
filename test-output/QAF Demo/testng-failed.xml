@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [QAF Demo]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="java Test(failed)" verbose="0">
+    <classes>
+      <class name="com.qmetry.qaf.example.test.SampleTest">
+        <methods>
+          <include name="setupTest"/>
+          <include name="testGoogleSearch"/>
+          <include name="setupSuit"/>
+          <include name="afterSuit"/>
+          <include name="setup"/>
+          <include name="afterClass"/>
+          <include name="setupMethod"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.qmetry.qaf.example.test.SampleTest -->
+    </classes>
+  </test> <!-- java Test(failed) -->
+</suite> <!-- Failed suite [QAF Demo] -->
