@@ -1,0 +1,20 @@
+<table style="background-color: #f2f2f2;">
+  <thead>
+    <tr>
+      <th>Tests Run</th>
+      <th>Passed</th>
+      <th>Failed</th>
+      <th>Skipped</th>
+      <th>Env</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>100</td>
+      <td>90</td>
+      <td>5</td>
+      <td>5</td>
+      <td>Production</td>
+    </tr>
+  </tbody>
+</table>
